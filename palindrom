@@ -1,0 +1,134 @@
+//  function ischecking(value){
+//    let original = value;
+//    let reverse = original.split('').reverse().join('')
+//    if(original ===reverse ){
+//      return true
+//    }else return false
+//  }
+// console.log(ischecking('madam'))
+// console.log(ischecking('data'))
+
+// let str = 'palindrom'
+// x = str.split('').reverse().join(' ')
+// function isMaching(value){
+//   let data= value
+//   let another =data. split('').reverse().join(' ')
+//   if(data===another){
+//     return true
+//   }else {
+//     return false
+//   }
+// }
+// console.log(isMaching(x))
+
+// I'm having trouble to figure out how to count vowels, consonants and declare how often the vowels appears separately, from user input. The user put any text ex: “Mischief managed!” and result must be: a: 2 e: 2 i: 2 o: 0 u: 0 non-vowels: 11
+// let data = prompt("enter ")
+// var userData = prompt ("Enter any text here");
+// var a = 0;
+// var e = 0;
+// var i = 0;
+// var o = 0;
+// var u = 0;
+// var consonants = 0;
+// var count;
+
+// for (count = 0; count <= userData.legth; count++){
+//    if((userData.charAt(count).match(/[aeiou]/))){       
+//      a++;
+//      e++;
+//      i++;
+//      o++;
+//      u++;
+//     }else if((userData.charAt(count).match(/[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]/))){
+
+//     consonants++;
+// }
+// }
+//  console.log ("a: " + a)
+//  console.log ("e: " + e)
+//  console.log ("i: " + i)
+//  console.log ("o: " + o)
+//  console.log ("u: " + u)
+// console.log ("consonants: " + consonants);
+
+// var userData = prompt("Enter any text here").toLowerCase();
+// var a = 0;
+// var e = 0;
+// var i = 0;
+// var o = 0;
+// var u = 0;
+// var consonants = 0;
+// var count;
+
+// for (count = 0; count < userData.length; count++){
+//     var char = userData.charAt(count);
+//     if(char.match(/[aeiou]/)){
+//         switch (char) {
+//             case 'a':
+//                 a++;
+//                 break;
+//             case 'e':
+//                 e++;
+//                 break;
+//             case 'i':
+//                 i++;
+//                 break;
+//             case 'o':
+//                 o++;
+//                 break;
+//             case 'u':
+//                 u++;
+//                 break;
+//         }
+//     } else if(char.match(/[bcdfghjklmnpqrstvwxyz]/)) {
+//         consonants++;
+//     }
+// }
+
+// console.log ("a: " + a);
+// console.log ("e: " + e);
+// console.log ("i: " + i);
+// console.log ("o: " + o);
+// console.log ("u: " + u);
+// console.log ("consonants: " + consonants);
+// var input = 'Mischief managed!';
+
+// var result = input.split('').reduce(function(result, c){
+//     c = c.toLowerCase();
+//     if(c in result){
+//         result[c] += 1;
+//     }else{
+//         result.other += 1;
+//     }
+//     return result;
+// }, {a:0, e:0, i:0, o:0, u:0, other:0});
+
+// console.log(JSON.stringify(result));
+// function countVowel(str) { 
+
+    // find the count of vowels
+//     const count = str.match(/[aeiou]/gi);
+
+    // return number of vowels
+//     return count;
+// }
+
+// take input
+// const string = prompt('Enter a string: ');
+
+// const result = countVowel(string);
+
+// console.log(result);
+
+
+
+
+
+// function voewls(num){
+//   const data =num. match(/[aeiou]/gi)
+//   return data
+// }
+// const number  = prompt('enter a string')
+// maxData = voewls(number).join('')
+// console.log(maxData)
+  
