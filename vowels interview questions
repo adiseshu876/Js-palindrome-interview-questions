@@ -1,0 +1,89 @@
+
+// ovewls finding ()
+// function vowels(pass){
+//    const res = { Vowels: 0, Consonants : 0 }
+//   const data = pass.match(/[aeiou]/gi)
+//   return data
+// }
+// var big = prompt('enter a text')
+// const result = vowels(big)
+// console.log(result)
+
+// palindrom()
+// function ispalindata (pass){
+//   const message = pass
+//   const newData =  pass.split('').reverse().join('')
+//   if(newData===message){
+//     return true
+//   }else {
+//     return false
+//   }
+// }
+// console.log(ispalindata('defined'))
+// console.log(ispalindata('madam'))
+
+// let str = 'uuuytrr'
+// z = str
+
+// console.log(z)
+//creating one fun
+// function isData (pass){
+//   let matche = pass
+//   let another = pass.split('').reverse().join('')
+//   if(matche ===another){
+//     return true
+//   }
+//   else {
+//     return false
+//   }
+// }
+// console.log(isData(z))
+
+      
+// vowels ()
+const vowels = ["a", "e", "i", "o", "u"]
+
+function countVowel(str) {
+//     initialize count
+//     let count = 0;
+const res = { Vowels: 0, Consonants : 0 }
+//     loop through string to test if each character is a vowel
+    for (let letter of str.toLowerCase()) {
+        if (vowels.includes(letter)) {
+//             count++;
+          res["Vowels"] = res["Vowels"] + 1
+        }else{
+           res["Consonants"] = res["Consonants"] + 1
+        }
+    }
+
+//     return number of vowels
+    return res
+}
+
+// take input
+const string = prompt('Enter a string: ');
+
+const result = countVowel(string);
+
+console.log(result)
+
+
+
+
+// let data = ["a","e","i","0","u"]
+// function fitvowels(str){
+//   count=0
+//   for (let latter of str){
+//     if(data.includes(latter)){
+//       count++
+//   }
+// }
+//   return count
+// }
+// let sample = prompt('enetr a string')
+// result = fitvowels(sample)
+// console.log(result)
+
+// var input = "hello"
+// console.log(input)
